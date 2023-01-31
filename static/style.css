@@ -1,0 +1,66 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex: wrap;
+}
+
+.image-container {
+    width: 70%;
+    height: 100%;
+    
+}
+
+.room-image {
+    width: 100%;
+    height: 100%;
+    border: solid;
+}
+
+.navigation-container {
+    width: 30%;
+    height: 100%;
+}
+
+.map-container, .map {
+    width: 100%;
+    height: 50%;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    border: solid;
+}
+
+.description-container {
+    width: 100%;
+    height: 50%;
+    border: solid;
+}
+
+.description-header {
+    top: 10%;
+    border: solid;
+}
+
+.description {
+    width: 100%;
+    border: solid;
+}
+
+.left-button {
+    position: absolute;
+    padding: 20px;
+    margin: 20px;
+    bottom: 15%;
+}
+
+.right-button {
+    position: absolute;
+    padding: 20px;
+    margin: 20px;
+    bottom: 15%;
+    right: 30%;
+}
+
